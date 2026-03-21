@@ -1,0 +1,7 @@
+aid: sirius-xm
+url: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/apis.yml
+modified: '2026-03-21'
+apis: []
+common:
+  - type: Website
+    url: https://www.sirius-xm.com
