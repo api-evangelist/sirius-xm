@@ -1,0 +1,67 @@
+{
+  "title": "Pandora Playback Response Structure",
+  "description": "Documentation of the playback data structure returned by the Pandora GraphQL API",
+  "type": "object",
+  "fields": [
+    {
+      "name": "trackToken",
+      "type": "string",
+      "required": true,
+      "description": "Unique token for this track instance, used for feedback operations"
+    },
+    {
+      "name": "audioUrl",
+      "type": "string (URI)",
+      "required": true,
+      "description": "Streaming audio URL - subscription and device-specific"
+    },
+    {
+      "name": "songName",
+      "type": "string",
+      "required": true,
+      "description": "Track title"
+    },
+    {
+      "name": "artistName",
+      "type": "string",
+      "required": true,
+      "description": "Artist or performer name"
+    },
+    {
+      "name": "albumName",
+      "type": "string",
+      "required": false,
+      "description": "Album title"
+    },
+    {
+      "name": "albumArtUrl",
+      "type": "string (URI)",
+      "required": false,
+      "description": "Album artwork image URL"
+    },
+    {
+      "name": "trackLength",
+      "type": "integer (seconds)",
+      "required": false,
+      "description": "Track duration in seconds"
+    },
+    {
+      "name": "songRating",
+      "type": "integer (-1, 0, or 1)",
+      "required": false,
+      "description": "Current user rating: 1=thumbs up, -1=thumbs down, 0=unrated"
+    },
+    {
+      "name": "allowFeedback",
+      "type": "boolean",
+      "required": false,
+      "description": "Whether thumbs up/down feedback is allowed for this track"
+    },
+    {
+      "name": "allowSkip",
+      "type": "boolean",
+      "required": false,
+      "description": "Whether the track can be skipped (subscription dependent)"
+    }
+  ]
+}

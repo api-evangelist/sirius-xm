@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://developer.pandora.com/schemas/track",
+  "title": "Pandora Track",
+  "description": "A music track in the Pandora catalog, returned by playback and search APIs.",
+  "type": "object",
+  "properties": {
+    "trackToken": {
+      "type": "string",
+      "description": "Unique token identifying this track instance for playback"
+    },
+    "songName": {
+      "type": "string",
+      "description": "The song title"
+    },
+    "artistName": {
+      "type": "string",
+      "description": "The recording artist name"
+    },
+    "albumName": {
+      "type": "string",
+      "description": "The album title"
+    },
+    "albumArtUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL for the album artwork image"
+    },
+    "audioUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Streaming audio URL for the track (subscription and device UUID dependent)"
+    },
+    "trackLength": {
+      "type": "integer",
+      "description": "Track duration in seconds"
+    },
+    "songRating": {
+      "type": "integer",
+      "description": "User rating for the track (1 = thumbs up, -1 = thumbs down, 0 = unrated)",
+      "enum": [-1, 0, 1]
+    },
+    "genre": {
+      "type": "string",
+      "description": "Primary music genre classification"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://developer.pandora.com/schemas/station",
+  "title": "Pandora Station",
+  "description": "A music or podcast station in Pandora, serving as a personalized radio channel.",
+  "type": "object",
+  "properties": {
+    "stationId": {
+      "type": "string",
+      "description": "Unique station identifier"
+    },
+    "stationName": {
+      "type": "string",
+      "description": "Display name of the station"
+    },
+    "stationDescription": {
+      "type": "string",
+      "description": "Description of the station content and format"
+    },
+    "artUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL for the station artwork image"
+    },
+    "isShared": {
+      "type": "boolean",
+      "description": "Whether this station is publicly shared by the creator"
+    },
+    "allowDelete": {
+      "type": "boolean",
+      "description": "Whether the current user can delete this station"
+    },
+    "allowRename": {
+      "type": "boolean",
+      "description": "Whether the current user can rename this station"
+    },
+    "isGenre": {
+      "type": "boolean",
+      "description": "Whether this is a curated Pandora genre station"
+    },
+    "dateCreated": {
+      "type": "object",
+      "description": "Station creation date details"
+    }
+  },
+  "required": ["stationId", "stationName"]
+}

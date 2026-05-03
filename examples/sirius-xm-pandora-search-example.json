@@ -1,0 +1,45 @@
+{
+  "title": "Pandora GraphQL Search Example",
+  "description": "Example GraphQL request and response for searching the Pandora catalog",
+  "request": {
+    "method": "POST",
+    "url": "https://www.pandora.com/api/v1/search",
+    "headers": {
+      "Authorization": "Bearer your-oauth-token",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "query": "{\n  search(query: \"Taylor Swift\", types: [ARTIST, SONG], pageSize: 5) {\n    artists {\n      name\n      artUrl\n      stationId\n    }\n    songs {\n      songName\n      artistName\n      albumName\n      trackToken\n    }\n  }\n}"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "data": {
+        "search": {
+          "artists": [
+            {
+              "name": "Taylor Swift",
+              "artUrl": "https://content-images.p-cdn.com/images/artist/taylor-swift.jpg",
+              "stationId": "AR:275127"
+            }
+          ],
+          "songs": [
+            {
+              "songName": "Shake It Off",
+              "artistName": "Taylor Swift",
+              "albumName": "1989",
+              "trackToken": "S2693953"
+            },
+            {
+              "songName": "Love Story",
+              "artistName": "Taylor Swift",
+              "albumName": "Fearless",
+              "trackToken": "S1234567"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

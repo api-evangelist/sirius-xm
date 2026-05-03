@@ -1,0 +1,126 @@
+vocabulary:
+  name: Sirius XM Vocabulary
+  description: >-
+    Domain vocabulary for Sirius XM Holdings, covering the SiriusXM satellite radio
+    platform, Pandora music streaming, podcast content, and AdsWizz programmatic
+    audio advertising ecosystem.
+  version: '1.0'
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  terms:
+    - term: Station
+      definition: >-
+        A Pandora radio station - either user-created (seeded by an artist, song,
+        or genre) or curated by Pandora. Stations generate personalized playlists
+        based on the Music Genome Project analysis.
+      aliases:
+        - Radio Station
+        - Pandora Station
+
+    - term: Music Genome Project
+      definition: >-
+        Pandora's proprietary music analysis system that evaluates songs across
+        hundreds of musical attributes (genes) to power personalized station
+        recommendations.
+      aliases:
+        - MGP
+        - Genome
+
+    - term: Track Token
+      definition: >-
+        A temporary, session-specific token that identifies a track instance
+        during playback. Required for submitting thumbs feedback and other
+        playback actions.
+
+    - term: Feedback
+      definition: >-
+        Thumbs up or thumbs down rating applied to a track during playback.
+        Positive feedback (thumbs up) increases similar track frequency;
+        negative feedback (thumbs down) skips the track and prevents replays.
+      aliases:
+        - Thumb Rating
+        - Thumbs Up/Down
+
+    - term: SiriusXM Channel
+      definition: >-
+        A curated audio programming channel delivered via satellite radio
+        and streaming, covering music genres, sports, news, talk, comedy,
+        and entertainment content.
+
+    - term: AdsWizz
+      definition: >-
+        A SiriusXM company and programmatic audio advertising platform that
+        powers dynamic ad insertion, audience targeting, and measurement for
+        streaming audio and podcast publishers.
+      aliases:
+        - AudioWizard
+
+    - term: Dynamic Ad Insertion
+      definition: >-
+        The technology of inserting targeted audio advertisements in real-time
+        into streaming or on-demand audio content, replacing static ads with
+        audience-relevant advertising.
+      aliases:
+        - DAI
+
+    - term: AudioID
+      definition: >-
+        AdsWizz's proprietary listener identity solution that creates durable
+        audience segments from first-party listening data without third-party
+        cookies.
+
+    - term: VAST
+      definition: >-
+        Video Ad Serving Template - an IAB standard XML format for audio and
+        video ad delivery. AdsWizz's SDK supports VAST-compliant ad serving.
+
+    - term: Pandora
+      definition: >-
+        A SiriusXM-owned digital music streaming service offering personalized
+        stations, on-demand playback, and podcast content through both free
+        (ad-supported) and premium subscription tiers.
+
+    - term: Podcast
+      definition: >-
+        On-demand audio content available through the Pandora platform, including
+        news, entertainment, comedy, and educational series.
+
+    - term: Collection
+      definition: >-
+        A Pandora user's personal library of saved stations, songs, albums,
+        artists, and playlists.
+
+    - term: Profile
+      definition: >-
+        A Pandora listener's account data including bio, followers, following
+        relationships, and listening preferences.
+
+    - term: GraphQL
+      definition: >-
+        The query language protocol used by the Pandora Developer API, allowing
+        partners to request exactly the data they need from the Pandora catalog
+        and user data systems.
+
+    - term: OAuth2
+      definition: >-
+        The authentication and authorization protocol used by the Pandora
+        Developer API for partner application access to user data and playback.
+
+    - term: SiriusXM Media
+      definition: >-
+        The advertising sales and marketing division of Sirius XM Holdings,
+        offering advertisers access to 160 million monthly listeners across
+        SiriusXM, Pandora, SoundCloud, and podcast networks.
+      aliases:
+        - SXM Media
+
+    - term: Programmatic Audio
+      definition: >-
+        Automated buying and selling of audio advertising inventory using
+        real-time bidding (RTB), private marketplace (PMP), or programmatic
+        direct deals.
+
+    - term: AudioGO
+      definition: >-
+        AdsWizz's self-serve audio advertising platform for small and medium
+        businesses to create and run audio ad campaigns.

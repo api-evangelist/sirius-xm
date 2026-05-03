@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "sxm": "https://developer.pandora.com/schema/",
+    "MusicRecording": "schema:MusicRecording",
+    "MusicGroup": "schema:MusicGroup",
+    "MusicAlbum": "schema:MusicAlbum",
+    "RadioStation": "schema:RadioStation",
+    "PodcastEpisode": "schema:PodcastEpisode",
+    "PodcastSeries": "schema:PodcastSeries",
+    "MusicPlaylist": "schema:MusicPlaylist",
+    "Track": "sxm:Track",
+    "Station": "sxm:Station",
+    "trackToken": "sxm:trackToken",
+    "stationId": "sxm:stationId",
+    "stationName": {
+      "@id": "schema:name"
+    },
+    "songName": {
+      "@id": "schema:name"
+    },
+    "artistName": {
+      "@id": "schema:byArtist",
+      "@type": "schema:MusicGroup"
+    },
+    "albumName": {
+      "@id": "schema:inAlbum",
+      "@type": "schema:MusicAlbum"
+    },
+    "albumArtUrl": {
+      "@id": "schema:image",
+      "@type": "@id"
+    },
+    "audioUrl": {
+      "@id": "schema:contentUrl",
+      "@type": "@id"
+    },
+    "trackLength": {
+      "@id": "schema:duration"
+    },
+    "songRating": "sxm:feedback",
+    "genre": "schema:genre",
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "schema:DateTime"
+    }
+  }
+}
