@@ -1,0 +1,13 @@
+{
+  "repo": "sirius-xm",
+  "feeds": [
+    {
+      "source": "https://www.siriusxm.com/blog/",
+      "feed_url": "https://www.siriusxm.com/blog/feed",
+      "saved": 10,
+      "title": "SiriusXM"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:36:23Z"
+}
