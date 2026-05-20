@@ -85,6 +85,8 @@ apis:
         url: https://docs.sdk.adswizz.com/
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/siriusxm
   - type: Website
     url: https://www.siriusxm.com/
   - type: Website
