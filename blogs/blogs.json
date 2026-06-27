@@ -3,19 +3,12 @@
   "feeds": [
     {
       "source": "https://www.siriusxm.com/blog/",
-      "feed_url": "https://www.siriusxm.com/blog/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://developer.pandora.com/docs/",
-      "feed_url": "https://developer.pandora.com/docs/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "feed_url": "",
+      "saved": 3,
+      "method": "agent-scrape"
     }
   ],
-  "post_count": 65,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 78,
+  "fetched": "2026-06-27T13:09:48Z",
+  "agent_pulled": "2026-06-27"
 }
