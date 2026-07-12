@@ -87,6 +87,8 @@ apis:
     url: https://docs.sdk.adswizz.com/
 
 common:
+- type: DomainSecurity
+  url: security/sirius-xm-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/siriusxm
 - type: Website
