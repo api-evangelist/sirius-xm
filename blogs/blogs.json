@@ -2,13 +2,14 @@
   "repo": "sirius-xm",
   "feeds": [
     {
-      "source": "https://www.siriusxm.com/blog/",
-      "feed_url": "",
-      "saved": 3,
-      "method": "agent-scrape"
+      "source": "https://developer.pandora.com/docs/",
+      "feed_url": "https://developer.pandora.com/docs/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 78,
-  "fetched": "2026-06-27T13:09:48Z",
-  "agent_pulled": "2026-06-27"
+  "post_count": 79,
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
