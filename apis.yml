@@ -110,6 +110,18 @@ apis:
     url: https://docs.sdk.adswizz.com/
 
 common:
+- type: ConsumerSite
+  url: https://www.siriusxm.com/
+- type: PressReleases
+  url: https://investor.siriusxm.com/news-events/press-releases
+- type: SECFilings
+  url: https://investor.siriusxm.com/financials/sec-filings/
+- type: Careers
+  url: https://careers.siriusxm.com/
+- type: GitHubOrganization
+  url: https://github.com/SiriusXM
+- type: SubsidiaryIndex
+  url: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/apis.yml
 - type: DomainSecurity
   url: security/sirius-xm-domain-security.yml
 - type: LinkedIn
