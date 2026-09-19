@@ -39,6 +39,14 @@ tags:
 - Streaming
 - Radio
 - Music
+- Podcasts
+- Advertising
+- Entertainment
+tags_raw:
+- Audio
+- Streaming
+- Radio
+- Music
 - Podcast
 - Advertising
 - Entertainment
@@ -61,6 +69,11 @@ apis:
   humanURL: https://developer.pandora.com/
   baseURL: https://www.pandora.com/api
   tags:
+  - Music
+  - Streaming
+  - Podcasts
+  - GraphQL
+  tags_raw:
   - Music
   - Streaming
   - Podcast
