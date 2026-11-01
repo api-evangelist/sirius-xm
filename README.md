@@ -64,108 +64,151 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sirius XM Holdings is the leading audio entertainment company in North America, providing satellite radio, digital streaming, podcast, and advertising services through SiriusXM, Pandora, and AdsWizz brands. The Pandora Developer API enables partners to build personalized music and podcast streaming experiences using GraphQL. AdsWizz provides programmatic audio advertising APIs for ad insertion, targeting, and measurement.
+Sirius XM Holdings is the leading audio entertainment company in North America, providing satellite radio, digital streaming, podcast, and advertising services through SiriusXM, Pandora, and AdsWizz brands. The Pandora Developer API enables partners to build personalized music and podcast streaming experiences using GraphQL. AdsWizz, a SiriusXM company, provides programmatic audio advertising APIs for ad insertion, targeting, and measurement across streaming and podcast platforms.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/apis.yml)
+**Areas:** Audio · Streaming · Radio · Music · Podcasts · Advertising · Entertainment
 
-## Scope
+## Sirius XM on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Sirius XM is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sirius-xm/](https://apis.io/providers/sirius-xm/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Audio
-- Streaming
-- Radio
-- Music
-- Podcast
-- Advertising
-- Entertainment
+- [Pandora Developer API](https://apis.io/apis/sirius-xm/pandora-api/) — The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports…
+- [AdsWizz Domain API](https://apis.io/apis/sirius-xm/adswizz-domain-api/) — The AdsWizz Domain API is a programmatic audio advertising platform API enabling dynamic ad insertion, campaign management, and audience targeting across…
+- [AdsWizz SDK](https://apis.io/apis/sirius-xm/adswizz-sdk/) — The AdsWizz SDK provides mobile and web integration for audio advertising, supporting VAST-compliant ad tech with companion banner support. Available for…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-05-02
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### Pandora Developer API
+GraphQL schemas.
 
-The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedback (thumbs up/down), collection management, and listener profile data. Authentication uses OAuth2. Available to approved partner applications through the Pandora Developer Center.
+- [Sirius XM GraphQL API](https://apis.io/graphqls/sirius-xm/sirius-xm-graphql/)
 
-**Human URL:** https://developer.pandora.com/
+#### JSON Schema (2)
 
-#### API Categories (GraphQL)
+The data models the API reads and writes.
 
-- **Playback** - Trigger playback from search, curated lists, user collections, or recommendations
-- **Podcast** - Access podcasts and podcast episodes
-- **Search** - Full-text catalog search for artists, songs, stations, playlists, and podcasts
-- **Collection** - Manage a listener's personalized music library
-- **Feedback** - Submit thumbs up/down ratings to personalize recommendations
-- **Profile** - Access listener profile, bio, followers, and following data
+- [Pandora Station](https://apis.io/schemas/sirius-xm/sirius-xm-station/)
+- [Pandora Track](https://apis.io/schemas/sirius-xm/sirius-xm-track/)
 
-#### Properties
+#### JSON Structure (1)
 
-- [Documentation](https://developer.pandora.com/docs/key-concepts/apis/)
-- [Developer Portal](https://developer.pandora.com/)
+Data models expressed in JSON Structure.
 
-### AdsWizz Domain API
+- [Sirius Xm Playback Structure](https://apis.io/json-structure/sirius-xm/sirius-xm-playback-structure/)
 
-The AdsWizz Domain API is a programmatic audio advertising platform enabling dynamic ad insertion, campaign management, and audience targeting across streaming radio, podcasts, and digital audio. AdsWizz is a SiriusXM company powering AudioID for listener identity and contextual targeting.
+#### JSON-LD (1)
 
-**Human URL:** https://docs.adswizz.com/domain-api/v8/
+Linked-data contexts for the provider's vocabulary.
 
-#### Properties
+- [Sirius Xm Context](https://apis.io/jsonld/sirius-xm/sirius-xm-context/)
 
-- [Documentation](https://docs.adswizz.com/domain-api/v8/)
+#### Vocabulary (1)
 
-### AdsWizz SDK
+The provider's domain terms, defined.
 
-The AdsWizz SDK provides mobile and web integration for VAST-compliant audio advertising with companion banner support for iOS, Android, and Web platforms.
+- [Sirius XM Vocabulary](https://apis.io/vocabularies/sirius-xm/sirius-xm-vocabulary/)
 
-**Human URL:** https://docs.sdk.adswizz.com/
+#### Examples (1)
 
-#### Properties
+Example requests and responses.
 
-- [Documentation](https://docs.sdk.adswizz.com/)
+- [Sirius Xm Pandora Search Example](https://apis.io/examples/sirius-xm/sirius-xm-pandora-search-example/)
 
-## JSON Schemas
+#### Governance rules (1)
 
-- [Track Schema](json-schema/sirius-xm-track-schema.json)
-- [Station Schema](json-schema/sirius-xm-station-schema.json)
+Spectral rulesets for the provider's contracts.
 
-## JSON Structures
+- [Sirius XM — jsonschema rules](https://apis.io/rules/sirius-xm/sirius-xm-jsonschema-spectral-rules/)
 
-- [Playback Response Structure](json-structure/sirius-xm-playback-structure.json)
+#### Security (1)
 
-## JSON-LD
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Sirius XM Context](json-ld/sirius-xm-context.jsonld)
+- [Sirius Xm Domain Security](https://apis.io/security/sirius-xm/sirius-xm-domain-security/)
 
-## Examples
+#### Plans and pricing (1)
 
-- [Pandora GraphQL Search](examples/sirius-xm-pandora-search-example.json)
+Published plans, tiers and prices.
 
-## Vocabulary
+- [Sirius Xm Plans Pricing](https://apis.io/plans/sirius-xm/sirius-xm-plans-pricing/)
 
-- [Sirius XM Vocabulary](vocabulary/sirius-xm-vocabulary.yml)
+#### Rate limits (1)
 
-## Common Links
+Published request limits.
 
-- **Website:** https://www.siriusxm.com/
-- **Pandora Developer Portal:** https://developer.pandora.com/
-- **Advertising Platform:** https://www.siriusxmmedia.com/
-- **AdsWizz:** https://www.adswizz.com/
-- **AdsWizz Docs:** https://docs.adswizz.com/
-- **Blog:** https://www.siriusxm.com/blog/
-- **GitHub:** https://github.com/SiriusXM
-- **Investor Relations:** https://investor.siriusxm.com/
-- **Terms of Service:** https://www.siriusxm.com/terms
-- **Privacy Policy:** https://www.siriusxm.com/privacy
+- [Sirius Xm Rate Limits](https://apis.io/rate-limits/sirius-xm/sirius-xm-rate-limits/)
 
-## Maintainers
+#### FinOps (1)
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+What the API costs to run, by operation.
+
+- [Sirius Xm Finops](https://apis.io/finops/sirius-xm/sirius-xm-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.siriusxm.com/)
+- [Documentation](https://developer.pandora.com/docs/)
+- [Blog](https://www.siriusxm.com/blog/)
+- [Terms of service](https://www.siriusxm.com/terms)
+- [Privacy policy](https://www.siriusxm.com/privacy)
+- [GitHub](https://github.com/SiriusXM)
+
+## API Evangelist rating
+
+**Kin Score 22.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 72.3 |
+| Contract quality | 10.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sirius-xm/](https://apis.io/providers/sirius-xm/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sirius XM: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sirius-xm/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
